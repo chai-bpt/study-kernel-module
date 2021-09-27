@@ -1,0 +1,1 @@
+cmd_/home/chaitanya/work/linking/study-kernel-module/mymodule.ko := ld -r -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/chaitanya/work/linking/study-kernel-module/mymodule.ko /home/chaitanya/work/linking/study-kernel-module/mymodule.o /home/chaitanya/work/linking/study-kernel-module/mymodule.mod.o;  true

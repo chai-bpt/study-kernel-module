@@ -1,0 +1,1 @@
+cmd_/home/chaitanya/work/linking/study-kernel-module/mymodule.mod := { echo  /home/chaitanya/work/linking/study-kernel-module/mymodule.o;  echo; } > /home/chaitanya/work/linking/study-kernel-module/mymodule.mod

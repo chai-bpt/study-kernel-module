@@ -5,3 +5,4 @@ dmesg
 modinfo <name>.ko
 lsmod
 sudo rmmod <name>
+sudo insmod mymodule.ko itemp=66

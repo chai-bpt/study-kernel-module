@@ -15,6 +15,7 @@ void moduleBodyFn(void)
 
 void myexit(void)
 {
+	moduleBodyFn();
 	printk("\nbye bye from kernel module\n");
 }
 

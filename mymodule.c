@@ -8,9 +8,14 @@ int myinit(void)
 	return 0;
 }
 
+void moduleBodyFn(void)
+{
+        printk("\nhii from kernel module body\n");
+}
+
 void myexit(void)
 {
-	printk("\nbye bye from kernel kernel\n");
+	printk("\nbye bye from kernel module\n");
 }
 
 module_init(myinit);

@@ -6,3 +6,4 @@ modinfo <name>.ko
 lsmod
 sudo rmmod <name>
 sudo insmod mymodule.ko itemp=66
+sudo insmod mymodule.ko itemp=66 cpString="changedString"

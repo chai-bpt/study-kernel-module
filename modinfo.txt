@@ -1,0 +1,10 @@
+filename:       /home/chaitanya/work/linking/study-kernel-module/mymodule.ko
+description:    study
+author:         chai.bpt@gmail.com
+license:        Dual MIT/GPL
+srcversion:     8B3E853F3557DE07F39B165
+depends:        
+retpoline:      Y
+name:           mymodule
+vermagic:       5.11.0-34-generic SMP mod_unload modversions 
+parm:           itemp:Integer (int)

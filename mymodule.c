@@ -10,17 +10,20 @@ MODULE_PARM_DESC(itemp, "Integer"); /* name, description for modinfo */
 int myinit(void)
 {
 	printk("\nHello world form kernel module\n");
+	printk("\nmyinit::itemp = %d\n",itemp);
 	return 0;
 }
 
 void moduleBodyFn(void)
 {
         printk("\nhii from kernel module body\n");
+	printk("\nmoduleBodyFn::itemp = %d\n",itemp);
 }
 
 void myexit(void)
 {
 	moduleBodyFn();
+	printk("\nmyexit::itemp = %d\n",itemp);
 	printk("\nbye bye from kernel module\n");
 }
 
